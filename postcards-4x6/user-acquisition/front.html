@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Lob.com Real Estate Just Sold 4x6 Postcard Template Front</title>
+<title>Lob.com User Acquisition 4x6 Postcard Template Front</title>
 <style>
 
   *, *:before, *:after {
@@ -9,19 +9,12 @@
     box-sizing: border-box;
   }
 
-  /* your brand fonts here */
+  /* your brand font here */
   @font-face {
-    font-family: 'SourceSansBold';
+    font-family: 'OpenSansCondBold';
     font-style: normal;
     font-weight: 700;
-    src: url('https://s3-us-west-2.amazonaws.com/lob-assets/SourceSansPro-Bold.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'OpenSans';
-    font-style: normal;
-    font-weight: 300;
-    src: url('https://s3-us-west-2.amazonaws.com/lob-assets/OpenSans-Light.ttf') format('truetype');
+    src: url('https://s3-us-west-2.amazonaws.com/lob-assets/OpenSans-CondBold.ttf') format('truetype');
   }
 
   body {
@@ -30,7 +23,7 @@
     margin: 0;
     padding: 0;
     /* your background image should have dimensions of 1875x1275 pixels. */
-    background-image: url('https://s3-us-west-2.amazonaws.com/lob-assets/realestate-pc-bg.jpg');
+    background-image: url('https://s3-us-west-2.amazonaws.com/lob-assets/crafty-pc-bg.jpg');
     background-size: 6.25in 4.25in;
     background-repeat: no-repeat;
   }
@@ -42,65 +35,92 @@
     height: 3.875in;
     left: 0.1875in;
     top: 0.1875in;
+    text-align: center;
   }
 
-  #logobox {
-    width: 1.75in;
-    height: 1.25in;
-    position: absolute;
-    top: 3in;
-    background-color: white;
+  #name {
+    font-family: 'OpenSansCondBold';
+    font-size: .23in;
+    text-transform: uppercase;
+    letter-spacing: .03in;
+    color: #f68121;
+    margin-top: .4in;
   }
 
-  #banner {
-    width: 4.5in;
-    height: 1.25in;
-    position: absolute;
-    top: 3in;
-    left: 1.75in;
-    background-color: #1285af;
+  #headline {
+    font-family: 'OpenSansCondBold';
+    font-size: .2in;
+  }
+
+  #icon-wrapper {
+    margin-top: .4in;
+  }
+
+  .icon {
+    text-align: center;
+    display: inline-block;
+    width: 1.5in;
+  }
+
+  .icon img {
+    width: 1in;
+  }
+
+  .icon-heading {
+    font-family: 'OpenSansCondBold';
+    font-size: .16in;
+    text-transform: uppercase;
+    letter-spacing: .03in;
+    color: #38c0ff;
   }
 
   #logo {
-    height: .9in;
-    position: absolute;
-    bottom: .1in;
-    left: .13in;
+    height: .7in;
+    margin-top: .4in;
   }
 
-  #heading {
-    font-family: 'SourceSansBold';
-    font-size: .25in;
-    text-transform: uppercase;
-    position: absolute;
-    left: 1.85in;
-    top: 3.1in;
-    color: white;
-  }
-
-  #subheading {
-    font-family: 'OpenSans';
-    font-size: .12in;
-    text-transform: none;
-  }
 </style>
 </head>
 
 <body>
-  <div id="logobox"></div>
-  <div id="banner"></div>
   <!-- do not put text outside of the safe area -->
   <div id="safe-area">
 
-    <!-- your logo here! -->
-    <img src="https://s3-us-west-2.amazonaws.com/lob-assets/deluxe-logo.png" id="logo">
 
-    <div id="heading">
-      Just Sold In Tyson's Corner!
-      <div id="subheading">
-        A beautiful property near you sold by Victor Binnit
+
+    <div id="name">
+      HARRY
+    </div>
+
+    <div id="headline">
+      Ready to start a home project TODAY with Crafty?
+    </div>
+
+    <div id="icon-wrapper">
+      <div class="icon">
+        <img src="https://s3-us-west-2.amazonaws.com/lob-assets/crafty-icon1.png">
+        <div class="icon-heading">
+          Gardening
+        </div>
+      </div>
+
+      <div class="icon">
+        <img src="https://s3-us-west-2.amazonaws.com/lob-assets/crafty-icon2.png">
+        <div class="icon-heading">
+          Painting
+        </div>
+      </div>
+
+      <div class="icon">
+        <img src="https://s3-us-west-2.amazonaws.com/lob-assets/crafty-icon3.png">
+        <div class="icon-heading">
+          Construction
+        </div>
       </div>
     </div>
+
+    <!-- your logo here! -->
+    <img src="https://s3-us-west-2.amazonaws.com/lob-assets/crafty-logo.png" id="logo">
 
   </div>
 </body>
