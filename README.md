@@ -24,3 +24,8 @@ HTML Templates for use on [Lob.com](https://lob.com/).
 <img src="http://assets.lob.com/psc_6366bfe4950ccce4_thumb_medium_1.png" width="45%">
 <img src="http://assets.lob.com/psc_6366bfe4950ccce4_thumb_medium_2.png" width="45%">
 </p>
+
+## [Invoice Letter](https://github.com/lob/lob-templates/tree/master/letters/invoice)
+<p align="center">
+<img src="http://assets.lob.com/ltr_31fdbc9ff7bd3431_thumb_large_1.png" width="70%">
+</p>
