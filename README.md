@@ -28,5 +28,9 @@ HTML Templates for use on [Lob.com](https://lob.com/).
 ## [Invoice Letter](https://github.com/lob/lob-templates/tree/master/letters/invoice)
 <p align="center">
 <img src="http://assets.lob.com/ltr_31fdbc9ff7bd3431_thumb_large_1.png" width="45%">
+</p>
+
+## [Outstanding Balance Letter](https://github.com/lob/lob-templates/tree/master/letters/outstanding-balance)
+<p align="center">
 <img src="http://assets.lob.com/ltr_21c5d6b122fe146e_thumb_large_1.png" width="45%">
 </p>
