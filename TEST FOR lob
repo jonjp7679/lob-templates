@@ -1,0 +1,91 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <META http://www.globiflow.com/catch/rzheq88y66a607y="first_name" " CONTENT="content ">
+<META NAME="first_name " CONTENT="content <link href="https://fonts.googleapis.com/css?family=Loved by the King:400" rel="stylesheet" type="text/css">
+  <LINK href="http://www.globiflow.com/catch/rzheq88y66a607y.html" rel="alternate stylesheet" type="text/css">
+  <title>FUP Letter Template</title>
+
+  <style>
+    @font-face {
+      font-family: 'Loved by the King';
+      font-style: normal;
+      font-weight: 400;
+      src: url('https://s3-us-west-2.amazonaws.com/lob-assets/LovedbytheKing.ttf') format('truetype');
+    }
+    
+    *,
+    *:before,
+    *:after {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    
+    body {
+      width: 8.5in;
+      height: 11in;
+      margin: 0;
+      padding: 0;
+      font-family: 'Loved by the King';
+      font-size: 24px
+    }
+    
+    .page {
+      page-break-after: always;
+    }
+    
+    .page-content {
+      position: relative;
+      width: 7in;
+      height: 10.625in;
+      left: 0.75in;
+      top: 0.1875in;
+    }
+    
+    #logo {
+      position: absolute;
+      right: 0;
+    }
+    
+    .wrapper {
+      position: absolute;
+      top: 2.75in;
+    }
+    
+    .signature {
+      font-family: 'Loved by the King';
+      font-size: 34px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="page-content">
+      <!-- Your logo here! -->
+      <img id="logo" src="http://pfuserfiles.globiflow.com/321381534-58496-remoteimage.png" width="200px" />
+
+      <div class="wrapper">
+
+        Dear
+        <div id="first_name"> content="first_name",
+          <type="first_name">
+            <p>We’ve talked a number of times about us buying your property at <b>{{property_address}}</b> , but I wanted to send this letter as well so you know how serious we are about buying it.</p>
+            <p>We can buy your house totally as-is, so you won’t need to make any repairs or updates of any kind, and you can even leave any furniture and personal items you don’t want in the house for us to handle.</p>
+            <p>We’ll also buy it without financing, so you don’t have to worry about the deal falling through at the last minute like you would with a retail buyer.</p>
+
+            <p>Again, my number is (703)-596-5311</p>
+
+            <p>Sincerely,</p>
+            <p class="signature">Jon Carcone</p>
+            <center><b>4 Brothers Buys Houses (703)-596-5311
+          <font color=blue>jon@4brothersbuyhouses.com</font>
+        </b></center>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
